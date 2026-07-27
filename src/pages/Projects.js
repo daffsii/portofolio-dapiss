@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { FaGithub, FaExternalAltLink } from 'react-icons/fa';
+import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 import './Projects.css';
 
 function Projects() {
@@ -130,7 +130,7 @@ function Projects() {
               </div>
               <div className="project-links">
                 <a href={project.link} className="project-link" target="_blank" rel="noopener noreferrer">
-                  <FaExternalAltLink /> Live Demo
+                  <FaExternalLinkAlt /> Live Demo
                 </a>
                 <a href={project.github} className="project-link github" target="_blank" rel="noopener noreferrer">
                   <FaGithub /> GitHub
